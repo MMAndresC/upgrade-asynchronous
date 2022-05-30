@@ -20,7 +20,7 @@ const getDataFromApi = (url) => { //1.2
         .catch(error => console.log('Error al recuperar dato de la API',error));
 }
 
-const eventButtonDelete = (event) => {
+const eventButtonDelete = (event) => { //1.4
     event.target.parentElement.remove();
     
 }
